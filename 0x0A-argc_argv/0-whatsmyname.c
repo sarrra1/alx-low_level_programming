@@ -7,10 +7,11 @@
  * @argv: arr arguments
  * Return: 0
  */
-int main(int argc__atribute__((unused)), char *argv[])
+
+int main(int argc __attribute__((unused)), char *argv[])
 {
+	/*print name of program*/
 	printf("%s\n", *argv);
 
 	return (0);
 }
-
