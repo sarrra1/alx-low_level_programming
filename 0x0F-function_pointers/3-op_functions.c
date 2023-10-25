@@ -1,51 +1,51 @@
 #include "3-calc.h"
 
-int op_add(int c, int d);
-int op_sub(int x, int y);
-int op_mul(int r, int t);
-int op_div(int u, int i);
+int op_add(int a, int b);
+int op_sub(int a, int b);
+int op_mul(int a, int b);
+int op_div(int a, int b);
 int op_mod(int a, int b);
 
 /**
  * op_add - sum of two numbers.
- * @c: first number.
- * @d: second number.
- * Return: The sum of c and d.
+ * @a: first number.
+ * @b: second number.
+ * Return: The sum of a and b
  */
 
-int op_add(int c, int d)
+int op_add(int a, int b)
 {
-	return (c + d);
+	return (a + b);
 }
 /**
  * op_sub - difference of two numbers.
- * @x: The first number.
- * @y: The second number.
- * Return: The difference of x and y.
+ * @a: The first number.
+ * @b: The second number.
+ * Return: The difference of a and b.
  */
-int op_sub(int x, int y)
+int op_sub(int a, int b)
 {
-	return (x - y);
+	return (a - b);
 }
 /**
  * op_mul - Returns the product of two numbers.
- * @r: The first number.
- * @t: The second number.
- * Return: The product of r and t.
+ * @a: The first number.
+ * @b: The second number.
+ * Return: The product of a and b
  */
-int op_mul(int r, int t)
+int op_mul(int a, int b)
 {
-	return (r * t);
+	return (a * b);
 }
 /**
  * op_div - division of two numbers.
- * @u: The first number.
- * @i: The second number.
- * Return: The quotient of u and i.
+ * @a: The first number.
+ * @b: The second number.
+ * Return: The quotient of a and b.
  */
-int op_div(int u, int i)
+int op_div(int a, int b)
 {
-	return (u / i);
+	return (a / b);
 }
 /**
  * op_mod - Returns the remainder of the division of two numbers.
