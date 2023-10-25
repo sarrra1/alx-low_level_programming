@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 	cunt = 1;
 	while (cunt < argc) 
 	{
-		if (checknumer(argv[cunt]))
+		if (checknumber(argv[cunt]))
 
 		{
 			strint = atoi(argv[cunt]); 
