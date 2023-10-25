@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	num = atoi(argv[1]);
+	numBER = atoi(argv[1]);
 	result = 0;
 
 	if (numBER < 0)
