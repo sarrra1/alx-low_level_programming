@@ -27,8 +27,9 @@ return (y);
 
 int append_text_to_file(const char *filename, char *text_content)
 {
-ssize_t dody = 0, lennn = stttrlen(text_content);
 int ayman;
+ssize_t dody = 0, lennn = stttrlen(text_content);
+/*int ayman; is like a fd */
 
 if (!filename)
 return (-1);
