@@ -1,6 +1,6 @@
 #include "main.h"
 
-#define USAAAGE "Usage: cp file from file to\n"
+#define USAAAGE "Usage: cp file_from file_to\n"
 #define ERROR_NO_READ "Error: Can't read from file %s\n"
 #define ERROR_NO_WRITE "Error: Can't write to %s\n"
 #define ERROR_NO_CLOSE "Error: Can't close fd %d\n"
