@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-*read textfile reads text from a file and prints it
+*read_textfile - reads text from a file and prints it
 *@filename: name of file to  be readedd
 *@letters: number of bytes to be readed
 *Return: number of thhe byttes read\\printed
 */
 
-ssize_t read textfile(const char *filename, size_t letters)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 int filesarad;
 ssize_t hosam;
