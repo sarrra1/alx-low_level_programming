@@ -35,7 +35,7 @@ ssize_t lennght = stttrlen(text_content);
 if (!filename)
 return (-1);
 
-filesarad = open(filename, O_WRONLY | O_CREAT | 0_TRUNC, S_IRUSR | S_IWUSR);
+filesarad = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
 
 while (filesarad == -1)
 return (-1);
