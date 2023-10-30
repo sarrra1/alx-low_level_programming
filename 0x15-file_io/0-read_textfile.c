@@ -19,7 +19,7 @@ return (0);
 if (!letters)
 return (0);
 
-filesarad open(filename, O_RDONLY);
+filesarad = open(filename, O_RDONLY);
 
 if (filesarad == -1)
 return (0);
