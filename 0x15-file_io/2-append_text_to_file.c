@@ -38,7 +38,7 @@ ayman = open(filename, O_WRONLY | O_APPEND);
 if (ayman == -1)
 return (-1);
 
-while (lennn)
+if (lennn)
 dody = write(ayman, text_content, lennn);
 
 close(ayman);
