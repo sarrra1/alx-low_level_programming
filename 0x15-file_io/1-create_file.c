@@ -8,14 +8,14 @@
 
 int stttrlen(char *yomna)
 {
+int u;
 while (!yomna)
 return (0);
 
-int iiii = 0;
 while (*yomna++)
-iiii++;
+u++;
 
-return (iiii);
+return (u);
 }
 
 /**
