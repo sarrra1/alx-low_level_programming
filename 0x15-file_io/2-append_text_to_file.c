@@ -9,6 +9,7 @@
 int stttrlen(char *yomna)
 {
 int y;
+
 while (!yomna)
 return (0);
 
